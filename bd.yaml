@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: banco-replicaset
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: banco
+  template:
+    metadata:
+      labels:
+        component: banco
+    spec:
+      containers:
+      - name: banco
+        image: 3rikbernard/banco_de_dados:latest
+        ports:
+        - name: db-port
+          containerPort: 33066

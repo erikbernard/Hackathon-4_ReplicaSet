@@ -1,4 +1,4 @@
-# Hackathon-4_ReplicaSet# Documentação do Projeto Kubernetes
+# Documentação do Projeto Kubernetes
 
 Este documento oferece uma visão detalhada das etapas de execução de um ReplicaSet no Kubernetes, demonstrando o provisionamento e gerenciamento automático de pods. Cada etapa é documentada com capturas de tela para fornecer uma referência visual do processo.
 
